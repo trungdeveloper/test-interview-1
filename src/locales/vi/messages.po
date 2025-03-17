@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-03-16 00:49+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: vn\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/components/banner/Banner.tsx:29
+msgid "Enter your email"
+msgstr "Địa chỉ email của bạn"
+
+#: src/layout/footer.tsx:35
+msgid "20 Phan Dang Luu street, Hai Chau District, Danang city, Vietnam"
+msgstr "Số 20 đường Phan Đăng Lưu, quận Hải Châu, thành phố Đà Nẵng, Việt Nam"
+
+#: src/components/about-us/about-us.tsx:55
+msgid "24 - Hour"
+msgstr "Truy Cập 24/7"
+
+#: src/components/about-us/about-us.tsx:57
+msgid "24/7 access ensures operators' businesses runs smoothly all year long."
+msgstr "Đảm bảo hoạt động kinh doanh của các nhà khai thác hoạt động trơn tru suốt cả năm."
+
+#: src/components/utils/constants.ts:5
+#: src/components/about-us/about-us.tsx:18
+msgid "About Us"
+msgstr "Về chúng tôi"
+
+#: src/layout/footer.tsx:23
+msgid "Address"
+msgstr "Địa chỉ"
+
+#: src/components/our-games/index.tsx:14
+msgid "As a pioneer of mobile app gamification, we take pride in originality and individuality, providing global players with state-of-the-art games that feature splendid storylines, sensational sound effects and magnificent animation that never cease to impress."
+msgstr "Là nhà tiên phong trong lĩnh vực trò chơi ứng dụng dành cho thiết bị di động, chúng tôi tự hào về tính độc đáo và cá tính, cung cấp cho người chơi toàn cầu những trò chơi hiện đại có cốt truyện tuyệt vời, hiệu ứng âm thanh giật gân và hoạt ảnh hoành tráng không ngừng gây ấn tượng."
+
+#: src/components/about-us/about-us.tsx:21
+msgid "Browse our selection of free online games and have a great time without leaving the site! Our Kids Games option also includes game reviews, extensive game cheats and walkthroughs, and much more. We have exclusive free downloads, videos, and articles as well. Etech reviews the most popular kids games from all the most popular video gaming platforms, so you don’t need to search around for fun anywhere else on the Internet. Explore a whole new world of gaming on Etech."
+msgstr "Duyệt qua tuyển chọn các trò chơi trực tuyến miễn phí của chúng tôi và có một khoảng thời gian tuyệt vời mà không cần rời khỏi trang web! Tùy chọn Trò chơi dành cho Trẻ em của chúng tôi cũng bao gồm các bài đánh giá trò chơi, các trò chơi gian lận và hướng dẫn mở rộng, và nhiều hơn nữa. Chúng tôi cũng có các bản tải xuống, video và bài báo miễn phí độc quyền. Etech đánh giá các trò chơi trẻ em phổ biến nhất từ tất cả các nền tảng trò chơi điện tử phổ biến nhất, vì vậy bạn không cần phải tìm kiếm niềm vui ở bất kỳ nơi nào khác trên Internet. Khám phá một thế giới trò chơi hoàn toàn mới trên Etech."
+
+#: src/components/about-us/about-us.tsx:67
+msgid "Combining imaginative universes, play dynamics, and unprecedented gameplay, our games transcend the boundaries of the virtual world by weaving innovative gameplay."
+msgstr "Kết hợp các vũ trụ giàu trí tưởng tượng, động lực chơi và lối chơi chưa từng có, trò chơi của chúng tôi vượt qua ranh giới của thế giới ảo bằng cách tạo ra lối chơi sáng tạo."
+
+#: src/components/utils/constants.ts:20
+msgid "Contact Us"
+msgstr "Liên hệ"
+
+#: src/components/banner/Coundown.tsx:50
+msgid "Days"
+msgstr "Ngày"
+
+#: src/components/about-us/about-us.tsx:65
+msgid "Design"
+msgstr "Thiết Kế"
+
+#: src/components/about-us/about-us.tsx:78
+msgid "Etech is an award-winning, international studio of designers, artists, animators and producers that create content for the biggest names in film and video games."
+msgstr "Etech là một studio quốc tế, từng đoạt giải thưởng gồm các nhà thiết kế, nghệ sĩ, họa sĩ hoạt hình và nhà sản xuất chuyên tạo ra nội dung cho những tên tuổi lớn nhất trong lĩnh vực điện ảnh và trò chơi điện tử."
+
+#: src/components/utils/constants.ts:10
+#: src/components/about-us/about-us.tsx:46
+msgid "Games"
+msgstr "Trò chơi"
+
+#: src/components/banner/Coundown.tsx:59
+msgid "Hours"
+msgstr "Giờ"
+
+#: src/components/banner/Coundown.tsx:68
+msgid "Minutes"
+msgstr "Phút"
+
+#: src/components/our-games/index.tsx:11
+msgid "Our Games"
+msgstr "Trò chơi"
+
+#: src/components/partners/index.tsx:48
+msgid "Our Partners"
+msgstr "Đối tác"
+
+#: src/components/utils/constants.ts:15
+msgid "Partners"
+msgstr "Đối tác"
+
+#: src/components/banner/Coundown.tsx:77
+msgid "Seconds"
+msgstr "Giây"
+
+#: src/layout/footer.tsx:51
+msgid "Subscribe"
+msgstr "Theo dõi"
+
+#: src/layout/footer.tsx:55
+msgid "Subscribe to our newsletter and be the first to know about our updates"
+msgstr "Đăng ký nhận bản tin của chúng tôi và là người đầu tiên biết về các cập nhật của chúng tôi"
+
+#: src/components/about-us/about-us.tsx:76
+msgid "Team"
+msgstr "Đội Ngũ"
+
+#: src/components/about-us/about-us.tsx:85
+#~ msgid "Tool"
+#~ msgstr "Công cụ"
+
+#: src/components/about-us/about-us.tsx:38
+msgid "Users"
+msgstr "Người chơi"
+
+#: src/layout/footer.tsx:29
+msgid "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, US"
+msgstr "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, Mỹ"
+
+#: src/components/banner/Banner.tsx:22
+msgid "We will back to something amazing. Getting the latest updates about our games. Please sign up to our newsletter."
+msgstr "Chúng tôi sẽ trở lại với một điều tuyệt vời. Để nhận các bản cập nhật mới nhất về trò chơi, vui lòng đăng ký nhận bản tin của chúng tôi."
+
+#. placeholder {0}: smallScreen && <br />
+#: src/components/banner/Banner.tsx:15
+msgid "We’re {0}Getting Ready"
+msgstr "Trò chơi sắp ra mắt"
