@@ -9,7 +9,7 @@ import ArrowRightIcon from "assets/arrow-right.svg?react";
 const Footer = () => {
   return (
     <div className="flex flex-col text-white">
-      <div className="bg-[url('/assets/images/mobile-footer-bg.jpg')] md:bg-[url('/assets/images/footer-bg.png')] bg-no-repeat bg-cover bg-center flex flex-col lg:flex-row gap-y-17 pt-10 pb-15.5 px-4 lg:px-[230px] lg:py-25 lg:gap-x-10">
+      <div className="bg-[url('/assets/images/mobile-footer-bg.webp')] md:bg-[url('/assets/images/footer-bg.webp')] bg-no-repeat bg-cover bg-center flex flex-col lg:flex-row gap-y-17 pt-10 pb-15.5 px-4 lg:px-[230px] lg:py-25 lg:gap-x-10">
         <div className="flex flex-col items-center lg:items-start justify-between gap-y-10 flex-1">
           <img className="h-24 w-auto" src="/White_logo.svg" alt="logo" />
           <div className="flex gap-x-6">

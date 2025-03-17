@@ -21,12 +21,12 @@ const languages: Language[] = [
   {
     code: LanguageType.VI,
     name: "Vietnamese",
-    flag: "/assets/images/vietnam-flag.png", // Using the provided img for demo
+    flag: "/assets/images/vietnam-flag.webp", // Using the provided img for demo
   },
   {
     code: LanguageType.EN,
     name: "English",
-    flag: "/assets/images/us-flag.png", // Using the provided img for demo
+    flag: "/assets/images/us-flag.webp", // Using the provided img for demo
   },
 ];
 

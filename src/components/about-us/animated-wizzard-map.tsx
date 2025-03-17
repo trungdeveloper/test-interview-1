@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import mapimg from "assets/images/Pin-map.png";
-import wizzard from "assets/images/wizzard.png";
+import mapimg from "assets/images/Pin-map.webp";
+import wizzard from "assets/images/wizzard.webp";
 
 export default function AnimatedWizardMap() {
   const [isHovering, setIsHovering] = useState(false);
@@ -86,7 +86,13 @@ export default function AnimatedWizardMap() {
 }
 
 // Sparkle effect component
-function SparkleEffect({ top, left, delay = 0 }) {
+interface SparkleEffectProps {
+  top: string;
+  left: string;
+  delay?: number;
+}
+
+function SparkleEffect({ top, left, delay = 0 }: SparkleEffectProps) {
   return (
     <motion.div
       className="absolute w-3 h-3 bg-cyan-300 rounded-full"

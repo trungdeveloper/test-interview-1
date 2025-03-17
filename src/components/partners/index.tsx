@@ -12,31 +12,31 @@ import { Trans } from "@lingui/react/macro";
 const partners = [
   {
     name: "EA Games",
-    logo: "/assets/images/partner.png?height=80&width=150",
+    logo: "/assets/images/partner.webp",
   },
   {
     name: "GAME",
-    logo: "/assets/images/partner2.png?height=80&width=150",
+    logo: "/assets/images/partner2.webp",
   },
   {
     name: "First Power Up",
-    logo: "/assets/images/partner3.png?height=80&width=150",
+    logo: "/assets/images/partner3.webp",
   },
   {
     name: "Disney",
-    logo: "/assets/images/partner4.png?height=80&width=150",
+    logo: "/assets/images/partner4.webp",
   },
   {
     name: "BookPro Game Show",
-    logo: "/assets/images/partner5.png?height=80&width=150",
+    logo: "/assets/images/partner5.webp",
   },
   {
     name: "Partner 6",
-    logo: "/assets/images/partner6.png?height=80&width=150",
+    logo: "/assets/images/partner6.webp",
   },
   {
     name: "Partner 7",
-    logo: "/assets/images/partner7.png?height=80&width=150",
+    logo: "/assets/images/partner7.webp",
   },
 ];
 
