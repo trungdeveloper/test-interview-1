@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { Trans } from "@lingui/react/macro";
+import { NavItem } from "../utils/constants";
 
 const partners = [
   {
@@ -42,7 +43,7 @@ const partners = [
 
 export default function PartnersSection() {
   return (
-    <section className="py-10 px-4 bg-[#f6f6f6]">
+    <section className="py-10 px-4 bg-[#f6f6f6]" id={NavItem.partners.id}>
       <div className="container mx-auto px-4">
         <h2 className="font-playfair font-black lg:text-6xl lg:leading-[5.00rem] text-[2.50rem] leading-[3.13rem] text-center align-middle">
           <Trans>Our Partners</Trans>

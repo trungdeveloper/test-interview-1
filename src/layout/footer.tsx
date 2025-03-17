@@ -5,10 +5,11 @@ import PinIcon from "assets/icons/pin-icon.svg?react";
 import PhoneIcon from "assets/icons/phone-icon.svg?react";
 import { Trans } from "@lingui/react/macro";
 import ArrowRightIcon from "assets/arrow-right.svg?react";
+import { NavItem } from "@/components/utils/constants";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col text-white">
+    <div className="flex flex-col text-white" id={NavItem.contactUs.id}>
       <div className="bg-[url('/assets/images/mobile-footer-bg.webp')] md:bg-[url('/assets/images/footer-bg.webp')] bg-no-repeat bg-cover bg-center flex flex-col lg:flex-row gap-y-17 pt-10 pb-15.5 px-4 lg:px-[230px] lg:py-25 lg:gap-x-10">
         <div className="flex flex-col items-center lg:items-start justify-between gap-y-10 flex-1">
           <img className="h-24 w-auto" src="/White_logo.svg" alt="logo" />

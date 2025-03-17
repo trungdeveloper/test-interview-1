@@ -8,11 +8,8 @@ import AnimatedWizardMap from "./animated-wizzard-map";
 
 const AboutUs = () => {
   return (
-    <section className=" max-w-[1160px] mx-auto">
-      <div
-        id={NavItem.aboutUs.id}
-        className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10 "
-      >
+    <section className=" max-w-[1160px] mx-auto" id={NavItem.aboutUs.id}>
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-10 gap-y-10 ">
         <div className="px-4 xl:px-0">
           <h1 className="font-playfair text-[40px] font-[900] xl:text-[60px] tracking-[3.6px]">
             <Trans>About Us</Trans>

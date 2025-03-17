@@ -2,10 +2,14 @@ import GameCard from "./game-card";
 import { Trans } from "@lingui/react/macro";
 import { mockGamesCard } from "../utils/mock-data";
 import { cn } from "@/lib/utils";
+import { NavItem } from "../utils/constants";
 
 const OurGames = () => {
   return (
-    <section className="flex flex-col px-4 gap-y-10 justify-center mb-12 lg:mb-32">
+    <section
+      className="flex flex-col px-4 gap-y-10 justify-center mb-12 lg:mb-32"
+      id={NavItem.games.id}
+    >
       <div className="flex flex-col gap-y-4 items-center">
         <h1 className="font-playfair font-black text-[2.50rem] leading-[3.13rem] text-center">
           <Trans>Our Games</Trans>
