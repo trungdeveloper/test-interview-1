@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useLingui } from "@lingui/react/macro";
@@ -24,6 +24,23 @@ export function MobileMenu() {
   const { i18n } = useLingui();
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const preventScroll = (e: TouchEvent) => e.preventDefault();
+
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+      document.addEventListener("touchmove", preventScroll, { passive: false });
+    } else {
+      document.body.style.overflow = "";
+      document.removeEventListener("touchmove", preventScroll);
+    }
+
+    return () => {
+      document.body.style.overflow = "";
+      document.removeEventListener("touchmove", preventScroll);
+    };
+  }, [isOpen]);
 
   return (
     <>
