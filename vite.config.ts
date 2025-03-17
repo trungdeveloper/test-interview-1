@@ -6,6 +6,7 @@ import svgr from "vite-plugin-svgr";
 import { lingui } from "@lingui/vite-plugin";
 
 export default defineConfig({
+  base: "./",
   plugins: [
     react({
       plugins: [["@lingui/swc-plugin", {}]],
